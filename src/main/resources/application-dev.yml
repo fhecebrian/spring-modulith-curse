@@ -1,0 +1,14 @@
+spring:
+  datasource:
+      username: modulitha
+      password: modulitha
+      url: jdbc:postgresql://localhost:5432/spring_modulith
+  jpa:
+    hibernate:
+      ddl-auto: update
+    defer-datasource-initialization: true
+  sql:
+    init:
+#      mode: always
+      mode: never
+

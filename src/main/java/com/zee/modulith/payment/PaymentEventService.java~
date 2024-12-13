@@ -1,0 +1,4 @@
+package com.zee.modulith.payment;
+
+public class PaymentEventService {
+}

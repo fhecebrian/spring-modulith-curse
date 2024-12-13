@@ -1,0 +1,10 @@
+package com.zee.modulith.inventory.exposed;
+
+import java.util.List;
+
+public interface InventoryService {
+
+    public InventoryDto fetchInventoryByName(String name);
+
+    public List<InventoryDto> fetchAllInName(List<String> inventoryNames);
+}

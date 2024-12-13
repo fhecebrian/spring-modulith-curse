@@ -1,0 +1,6 @@
+spring:
+  application:
+  name: spring-modulith-curse
+
+  profiles:
+    active: dev

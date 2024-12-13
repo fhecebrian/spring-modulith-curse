@@ -1,0 +1,4 @@
+package com.zee.modulith.inventory;
+
+public class InventoryUtil {
+}

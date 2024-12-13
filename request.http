@@ -1,0 +1,25 @@
+## Post de order
+POST http://localhost:8080/order
+content-type: application/json
+
+{
+    "customerName": "Zee Zico1",
+    "customerEmail": "test1@test.com",
+    "inventoryRequestDtoList": [
+        {
+            "inventoryName": "pencil",
+            "qty": 6
+        },
+        {
+            "inventoryName": "ruler",
+            "qty": 3
+        },
+        {
+            "inventoryName": "boock",
+            "qty": 4
+        }
+    ],
+    "message":"",
+    "statusCode": 0,
+    "paymentDto":{}
+}
